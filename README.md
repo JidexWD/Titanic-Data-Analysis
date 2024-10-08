@@ -11,7 +11,7 @@ testing documenting data analysis on git hub
 ## Project  Structure
  Data
   - Data Collection
-     downloaded the tableau csv file
+     downloaded the Kaggle csv file
     ![image](https://github.com/user-attachments/assets/c5c7c1b6-2672-417d-8acd-d63a49c83259)
 
   - data overview
@@ -39,7 +39,7 @@ description of the data
  created a new age category (children, youth & adult, seniors) column 
  then when we have done all of these processes we save and export the data as an excel file and then send it to tableu for visualization 
 
- Tableau is a data visualization software that gives us a wild range of of data visualization capabilities 
+ Tableau is a data visualization software that gives us a wild range of of data visualization capabilities (https://public.tableau.com/views/TITANICTEST2FORGITHUB/Titanic?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
  ![image](https://github.com/user-attachments/assets/5f68096e-e55a-4eba-be8c-a592758cfd22)
  we showed the relationship between the total number of survived with the rate of survived in each class 
  ![image](https://github.com/user-attachments/assets/a4a159f1-a7f3-48b4-a33a-d9d45e0cf57a)
