@@ -1,4 +1,4 @@
-# Titanic end to end data analysis Project
+# Titanic End to End Data Analysis Project
 testing documenting data analysis on git hub
 ## Table of content
 ## Project Overview 
