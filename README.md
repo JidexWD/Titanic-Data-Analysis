@@ -9,7 +9,7 @@ testing documenting data analysis on git hub
 - [Data Analysis](#data-analysis)
 - [Results](#results)
 - [Recommendations](#recommendations)
-- [Limitation](#limitation)
+- [Limitations](#limitations)
 ## Project Overview 
  A ship building company wants to know how the passenger class on the titanic affetced the survival rate on the titanic. they want to use this analysis to build better cabins for their ships. he project aims to investigate whether passenger class and age impacted survival rates in the Titanic tragedy to improve future ship designs. The company suspects that higher-class passengers had better chances of survival and wants to ensure equal access to emergency equipment for all passengers in emergencies.
 ## Data Source 
@@ -73,5 +73,5 @@ For first-class passengers, the survival rate is approximately 60%. However, whe
 Age also played a significant role in survival outcomes. Second-class children had a 100% survival rate, compared to 80% for first-class and 40% for third-class children. No seniors survived in the second and third classes, while only 17% (one individual) survived in the first class. It is essential to conduct a deeper statistical analysis for the first class result to determine if this survival rate among seniors is statistically significant or due to chance.
 ## Recommendations
    Focus on minimizing the disparity between passenger classes. • Investigate emergency accessibility measures to improve survival rates for all age categories across all classes. • Use these insights to initiate further data analysis (statistical analysis) to design ships that ensure more equitable safety provisions for all passengers, regardless of class or age.
-## Limitation 
+## Limitations 
  the dataset did not contain other information that could have lead to other analysis 
