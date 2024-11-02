@@ -40,13 +40,38 @@ testing documenting data analysis on git hub
  python gives us a lot of flexibility when handling data
  ![image](https://github.com/user-attachments/assets/fbfb53d0-bd33-4ac4-9b79-66b030c82d97)
 description of the data 
+           
+            df.info()
+  
 ![image](https://github.com/user-attachments/assets/6e172ff1-af84-42e9-9f02-987c630f5411)
 
+         df.describe()
  we can see the data type, mean, meadian std and so on from this quick analysis 
 
  ![image](https://github.com/user-attachments/assets/2c5abbbd-077c-4f2a-bfe9-0e30e09d7a82)
  created a new age category (children, youth & adult, seniors) column 
  then when we have done all of these processes we save and export the data as an excel file and then send it to tableu for visualization 
+ 
+ 
+    # Define a function to categorize age
+    def categorize_age(age):
+    if age >= 0 and age <= 14:
+        return 'Children'
+    elif age >= 15 and age <= 64:
+        return 'Youth & Adult'
+    elif age >= 65 and age <= 120:
+        return 'Seniors'
+    else:
+        return 'Unknown'
+
+    # Apply the function to create the new 'age_category' column
+    df['age_category'] = df['Age'].apply(categorize_age)
+
+    print(df['age_category'].value_counts())
+
+
+      df.to_excel('Titanic_python.xlsx', index=F
+     
 
  Tableau is a data visualization software that gives us a wild range of of data visualization capabilities (https://public.tableau.com/views/TITANICTEST2FORGITHUB/Titanic?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
  ![image](https://github.com/user-attachments/assets/5f68096e-e55a-4eba-be8c-a592758cfd22)
